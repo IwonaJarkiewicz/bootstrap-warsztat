@@ -1,0 +1,57 @@
+/*reset*/
+
+body {
+    margin: 0;
+    font-family: 'RobotoSlab', sans-serif;
+}
+
+
+/*header*/
+
+#main-nav {
+    background-color: transparent;
+    border: 0;
+    font-family: 'MOntserrat';
+    font-weight: 600;
+}
+
+#main-nav ul>li>a {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    transition: all 0.4;
+}
+
+#main-nav .navbar-brand {
+    font-family: 'Droid Serif' font-style: italic;
+}
+
+header {
+    height: 100vh;
+    background-image: repeating-linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/header/pictures_on_the_wall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: 'MOnserrat';
+}
+
+#main-header .header-inner {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #FFFFFF;
+}
+
+#main-header .header-inner h3 {
+    font-family: 'RobotoSlab';
+    font-style: italic;
+    font-size: 36px;
+    margin-top: 0;
+}
+
+#main-header .header-inner h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.4s;
+}
