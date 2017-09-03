@@ -92,6 +92,9 @@ header {
     color: #5bc0de;
 }
 
+
+/* services */
+
 #services .fa {
     width: 80px;
     height: 80px;
@@ -123,16 +126,16 @@ header {
     text-align: center;
 }
 
-#portfolio .single-porftolio-item .portfolio-image-container {
+#portfolio .single-portfolio-item .portfolio-image-container {
     height: 300px;
     overflow: hidden;
 }
 
-#portfolio .single-porftolio-item .portfolio-image-container .portfolio-image {
+#portfolio .single-portfolio-item .portfolio-image-container .portfolio-image {
     height: 100%;
     background-size: cover;
     background-position: center;
-    transition: all 0.4s easy-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 #portfolio-item-1 {
@@ -159,26 +162,26 @@ header {
     background: url('../img/portfolio/typing_on_laptop.jpg') no-repeat;
 }
 
-#portfolio .single-porftolio-item .portfolio-image-container .portfolio-image .portfolio-item-mask {
+#portfolio .single-portfolio-item .portfolio-image-container .portfolio-image .portfolio-item-mask {
     height: 100%;
     opacity: 0;
     background-color: rgba(14, 216, 214, 0.85);
-    transition: all 0.4s easy-in-out;
+    transition: all 0.4s ease-in-out;
     position: relative;
 }
 
 
 /*portfolio hovers*/
 
-#portfolio .single-porftolio-item .portfolio-image-container .portfolio-image:hover {
+#portfolio .single-portfolio-item .portfolio-image-container .portfolio-image:hover {
     transform: scale(1.2);
 }
 
-#portfolio .single-porftolio-item .portfolio-image-container .portfolio-image .portfolio-item-mask:hover {
+#portfolio .single-portfolio-item .portfolio-image-container .portfolio-image .portfolio-item-mask:hover {
     opacity: 1;
 }
 
-#portfolio .single-porftolio-item .portfolio-image-container .portfolio-image .portfolio-item-mask .fa {
+#portfolio .single-portfolio-item .portfolio-image-container .portfolio-image .portfolio-item-mask .fa {
     color: #FFFFFF;
     font-size: 3em;
     position: absolute;
