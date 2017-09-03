@@ -9,10 +9,8 @@ $(window).scroll(function () {
 
 function navAddClass() {
     var navHeight = $('#main-nav').height();
-    console.log(navHeight);
 
     var windowScrollPosition = $(window).scrollTop();
-    consol.log(windowScrollPosition);
     if (windowScrollPosition >= navHeight) {
         $('#main-nav').addClass('scrolled');
     } else {

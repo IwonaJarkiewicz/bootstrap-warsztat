@@ -12,6 +12,22 @@ section {
     padding: 60px 0 60px 0;
 }
 
+.social-icons .fa {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: #FFFFFF;
+    background-color: #000000;
+    font-size: 3em;
+    margin: 0 5px;
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+.social-icons .fa:hover {
+    background-color: rgb(14, 216, 216, 214);
+}
+
 
 /*header*/
 
@@ -51,7 +67,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    font-family: 'MOnserrat';
+    font-family: 'Monserrat';
 }
 
 #main-header .header-inner {
@@ -187,4 +203,102 @@ header {
     position: absolute;
     top 50%;
     transform: translateY(-50%);
+}
+
+
+/* team */
+
+#team h2 {
+    text-align: center;
+    font-family: 'Montserat';
+    font-size: 36px;
+    margin-top: 0;
+    /*fonty*/
+}
+
+#.team #team .fa {
+    width: 160px;
+    height: 160px;
+    line-height: 80px;
+    border: 1px solid #0ed8d6;
+    color: #FFFFFF;
+    border-radius: 50%;
+    font-size: 3em;
+    transition: all 0.4s;
+}
+
+.team-member img {
+    max-height: 230px;
+}
+
+#contact {
+    background-image: repeating-linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/footer/world-map.jpg);
+}
+
+#contact input:not([type="submit"]),
+#contact textarea {
+    width: 100%;
+    border: 0px solid;
+}
+
+#contact input,
+#contact textarea {
+    text-transform: uppercase;
+    padding: 15px;
+    font-family: "Montserat", sans-serif;
+    border-radius: 5px;
+}
+
+#contact input:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+#contact input[type="submit"] {
+    margin-top: 30px;
+}
+
+#contact input::-webkit-input-placeholder {
+    color: #777;
+}
+
+#contact input::-moz-placeholder {
+    color: #777;
+}
+
+#contact input::-ms-input-placeholder {
+    color: #777;
+}
+
+
+/*footer*/
+
+#main-footer {
+    padding: 10px 0;
+}
+
+#main-footer nav,
+#main-footer .copyrights {
+    line-height: 50px;
+    margin: 0;
+}
+
+#main-footer nav,
+#main-footer .social-icons {
+    text-align: center;
+}
+
+#main-footer nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#main-footer nav ul li a {
+    color: #777;
+    font-family: "Monserrat", sans-serif;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+#main-footer nav ul li a:hover {
+    color: #0ed8d6;
 }
