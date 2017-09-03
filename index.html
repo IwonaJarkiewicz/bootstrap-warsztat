@@ -8,7 +8,7 @@
     <!-- meta rwd -->
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
-    <link rel="stylesheet" href="font-awesome/css/">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
     <!-- bootstrap styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -18,31 +18,199 @@
 
 <body>
 
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+    <nav class="navbar navbar-default navbar-fixed-top" id="main-nav">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-            <a class="navbar-brand" href="#">Bootstrap Grid</a>
+                <a class="navbar-brand" href="#">Bootstrap Grid</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Services</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">About</a></li>
-            </ul>
+    </nav>
+    <header id="main-header">
+        <div class="header-inner">
+            <h3>Num libero temporte</h3>
+            <h1>Lorem Ipsum</h1>
+            <button type="button" class="btn btn-info">view more</button>
         </div>
-    </div>
+    </header>
 
-</nav>
-header#main-header>.header-inner>h3{Num libero temporte}+h1{Lorem Ipsum}
+    <!-- start sekcja Services -->
+    <section id="services" class="text-center">
+        <div class="container">
+            <div class="row">
+                <h2>Services</h2>
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <i class="fa fa-briefcase"></i>
+                    <h3 class="text-capitalize">web developer</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt iusto sit sequi voluptatem eius deleniti impedit fugit obcaecati, eum, alias facilis repellendus labore voluptatum, illum fugiat, odio cupiditate dolorum dignissimos.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-cloud-download"></i>
+                    <h3 class="text-capitalize">e-commerce</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt iusto sit sequi voluptatem eius deleniti impedit fugit obcaecati, eum, alias facilis repellendus labore voluptatum, illum fugiat, odio cupiditate dolorum dignissimos.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-comment"></i>
+                    <h3 class="text-capitalize">web design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt iusto sit sequi voluptatem eius deleniti impedit fugit obcaecati, eum, alias facilis repellendus labore voluptatum, illum fugiat, odio cupiditate dolorum dignissimos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end sekcja Services -->
+
+    <!-- start sekcja Portfolio -->
+    <section id="portfolio" class="text-center">
+        <div class="container">
+            <div class="row">
+                <h2>portfolio</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt iusto sit sequi voluptatem eius deleniti impedit fugit obcaecati, eum, alias facilis repellendus labore voluptatum, illum fugiat, odio cupiditate dolorum dignissimos.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="single-portfolio-item">
+                        <div class="portfolio-image-container">
+                            <div class="portfolio-image" id="portfolio-item-1">
+                                <div class="portfolio-item-mask">
+                                    <i class="fa fa-plus"><img src="img/portfolio/box_of_cookies.jpg" alt=""></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Erum Rerum Hic</h3>
+                        <p>Quas aliquid rerum placeat</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="single-portfolio-item">
+                        <div class="portfolio-image-container">
+                            <div class="portfolio-image" id="portfolio-item-2">
+                                <div class="portfolio-item-mask">
+                                    <i class="fa fa-plus"><img src="img/portfolio/chaotic_paint.jpg" alt=""></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Erum Rerum Hic</h3>
+                        <p>Quas aliquid rerum placeat</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="single-portfolio-item">
+                        <div class="portfolio-image-container">
+                            <div class="portfolio-image" id="portfolio-item-3">
+                                <div class="portfolio-item-mask">
+                                    <i class="fa fa-plus"><img src="img/portfolio/chestnut_on_bracket.jpg" alt=""></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Erum Rerum Hic</h3>
+                        <p>Quas aliquid rerum placeat</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="single-portfolio-item">
+                        <div class="portfolio-image-container">
+                            <div class="portfolio-image" id="portfolio-item-4">
+                                <div class="portfolio-item-mask">
+                                    <i class="fa fa-plus"><img src="img/portfolio/child_with_blue_paint.jpg" alt=""></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Erum Rerum Hic</h3>
+                        <p>Quas aliquid rerum placeat</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="single-portfolio-item">
+                        <div class="portfolio-image-container">
+                            <div class="portfolio-image" id="portfolio-item-5">
+                                <div class="portfolio-item-mask">
+                                    <i class="fa fa-plus"><img src="img/portfolio/house_with_blue_doors.jpg" alt=""></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Erum Rerum Hic</h3>
+                        <p>Quas aliquid rerum placeat</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="single-portfolio-item">
+                        <div class="portfolio-image-container">
+                            <div class="portfolio-image" id="portfolio-item-6">
+                                <div class="portfolio-item-mask">
+                                    <i class="fa fa-plus"><img src="img/portfolio/typing_on_laptop.jpg" alt=""></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Erum Rerum Hic</h3>
+                        <p>Quas aliquid rerum placeat</p>
+                    </div>
+                </div>
+            </div>
 
 
+        </div>
+    </section>
 
+
+    <!-- end sekcja Portfolio -->
+
+    <!-- start sekcja Team -->
+
+    <section id="team" class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <i class="fa fa-briefcase"></i>
+                    <h3 class="text-capitalize">Eric Stern</h3>
+                    <p>Account manager</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-cloud-download"></i>
+                    <h3 class="text-capitalize">Martin Muller</h3>
+                    <p>Developer</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-comment"></i>
+                    <h3 class="text-capitalize">Anna Smith</h3>
+                    <p>Project manager</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- start sekcja Team -->
 
 
     <script src="js/jquery-3.2.1.min.js"></script>
